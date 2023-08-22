@@ -34,7 +34,7 @@ function checkCVC(){
     var_cvc="113"
     attempts=3
 
-    while [ $attempts - gt 0 ]; do
+    while [ $attempts -gt 0 ]; do
     echo -n "Please enter CVC: "
     read cvcnum
     echo
